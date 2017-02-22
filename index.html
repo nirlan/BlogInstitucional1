@@ -3,28 +3,23 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <title>Blog Polipartes</title>
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">        
+        <title>Blog Polipartes</title>        
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <![endif]-->        
+        <![endif]-->
     </head>
-
-    <body>
-       
+    <body>       
         <!-- HEADER -->
         <header>
-            <a href="#" id="btnVirtualStore">ACESSE NOSSA LOJA VIRTUAL</a>
-            <img src="img/logoWhite.jpg" alt="Logotipo do blog Polipartes" height="166" width="326">
+            <a href="#" class="btnVirtualStore">ACESSE NOSSA LOJA VIRTUAL</a>
+            <img src="img/logoWhite.jpg" alt="Blog Polipartes" height="166" width="326">
             <form action="#"/>
-                <input type="search" placeholder="O que você está procurando?">
-                <img src="img/icoGlass.png" id="btnSearch" alt="Buscar" height="40" width="40">
-            </form>
-        </header>
-       
+                <input type="search" name="searchBox" placeholder="O que você está procurando?">
+            </form>            
+        </header>       
         <!-- NAVIGATION -->
         <nav>
             <a href="#">HOME</a>
@@ -33,101 +28,198 @@
             <a href="#">FERRAMENTAS</a>
             <a href="#">COMPORTAMENTO</a>
             <a href="#">NOVIDADES</a>
-        </nav>
-        
+        </nav>        
         <!-- HIGHLIGHTS -->
         <main>
-            <section>
+            <section class="highlights">
                 <figure>
                     <img src="img/highlightImg.jpg" alt="Mulher observando a parte interna de um ar-condicionado" height="416" width="820">
                     <figcaption>
                         <h1>5 formas de economizar energia sem precisar desligar o ar-condicionado.</h1>
-                        <h3>NOVIDADES</h3>
+                        <h2>NOVIDADES</h2>
                         <time datetime="2017-02-03">03 DE FEVEREIRO DE 2017</time>
-                    </figcaption>                                   
+                    </figcaption>                            
                 </figure>
                 <aside>
                     <article>
-                        <h2>Instalação de ar-condicionado: sua casa está preparada para o verão?</h2>
-                        <h3>FERRAMENTAS</h3>
+                        <h1>Instalação de ar-condicionado: sua casa está preparada para o verão?</h1>
+                        <h2>FERRAMENTAS</h2>
                         <time datetime="2017-02-03">03 DE FEVEREIRO DE 2017</time>
                     </article>
                     <article>
-                        <h2>Confira dicas simples para economizar gás na cozinha.</h2>
-                        <h3>PEÇAS</h3>
+                        <h1>Confira dicas simples para economizar gás na cozinha.</h1>
+                        <h2>PEÇAS</h2>
                         <time datetime="2017-02-03">03 DE FEVEREIRO DE 2017</time>
                     </article>
                     <article>
-                        <h2>Como Tirar Mancha de Mofo e Bolor de toalhas e roupas.</h2>
-                        <h3>COMPORTAMENTO</h3>
+                        <h1>Como Tirar Mancha de Mofo e Bolor de toalhas e roupas.</h1>
+                        <h2>COMPORTAMENTO</h2>
                         <time datetime="2017-02-03">03 DE FEVEREIRO DE 2017</time>
                     </article>
                 </aside>
             </section>
+            <section class="lastPosts">
+                <h1>Últimas Postagens</h1>
+                <article>
+                    <figure>
+                        <img src="img/imgSection01.jpg" alt="Berço" height="190" width="295">
+                        <figcaption>NOVIDADES</figcaption>
+                    </figure>
+                    <h2>Qual o ar condiconado ideal para o quarto dos seus filhos?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ud ulålamc sitr [...]</p>
+                    <time datetime="2017-02-04">04.02.2017</time>
+                    <a href="#">
+                        <img src="img/icoComments.png" alt="Comentários" height="17" width="17">
+                        <small>[5]</small>
+                    </a>
+                </article>
+                <article>
+                    <figure>
+                        <img src="img/imgSection02.jpg" alt="Imagem ampliada de mosquito sobre pele humana" height="190" width="295">
+                        <figcaption>PEÇAS</figcaption>
+                    </figure>
+                    <h2>Qual o ar condiconado ideal para o quarto dos seus filhos?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ud ulålamc sitr [...]</p>
+                    <time datetime="2017-02-04">04.02.2017</time>
+                    <a href="#">
+                        <img src="img/icoComments.png" alt="Comentários" height="17" width="17">
+                        <small>[5]</small>
+                    </a>
+                </article>
+                <article>
+                    <figure>
+                        <img src="img/imgSection03.jpg" alt="Ar condicionado split" height="190" width="295">
+                        <figcaption>NOVIDADES</figcaption>
+                    </figure>
+                    <h2>Qual a diferença entre ar condicionado e climatizador?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ud ulålamc sitr [...]</p>
+                    <time datetime="2017-02-04">04.02.2017</time>
+                    <a href="#">
+                        <img src="img/icoComments.png" alt="Comentários" height="17" width="17">
+                        <small>[5]</small>
+                    </a>
+                </article>
+                <article>
+                    <figure>
+                        <img src="img/imgSection04.jpg" alt="Camisas de várias cores estendidas no varal" height="190" width="295">
+                        <figcaption>PEÇAS</figcaption>
+                    </figure>
+                    <h2>Top 5 Melhores Lava e Seca em 2017.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ud ulålamc sitr [...]</p>
+                    <time datetime="2017-02-04">04.02.2017</time>
+                    <a href="#">
+                        <img src="img/icoComments.png" alt="Comentários" height="17" width="17">
+                        <small>[5]</small>
+                    </a>
+                </article>
+                <article>
+                    <figure>
+                        <img src="img/imgSection05.jpg" alt="Casal tentando consertar geladeira" height="190" width="295">
+                        <figcaption>NOVIDADES</figcaption>
+                    </figure>
+                    <h2>O Motor da sua geladeira quebrou? Ache a peça certa.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ud ulålamc sitr [...]</p>
+                    <time datetime="2017-02-04">04.02.2017</time>
+                    <a href="#">
+                        <img src="img/icoComments.png" alt="Comentários" height="17" width="17">
+                        <small>[5]</small>
+                    </a>
+                </article>
+                <article>
+                    <figure>
+                        <img src="img/imgSection06.jpg" alt="Controle remoto de ar condicionado" height="190" width="295">
+                        <figcaption>PEÇAS</figcaption>
+                    </figure>
+                    <h2>Qual a temperatura correta do ar condicionado?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ud ulålamc sitr [...]</p>
+                    <time datetime="2017-02-04">04.02.2017</time>
+                    <a href="#">
+                        <img src="img/icoComments.png" alt="Comentários" height="17" width="17">
+                        <small>[5]</small>
+                    </a>
+                </article>
+                <a href="#" class="btnLoad">CARREGAR MAIS POSTS</a>
+            </section>
             <section>
                 <article>
-                    <figure>
-                        <figcaption>NOVIDADES</figcaption>
-                    </figure>
-                    <h1>Qual o ar condiconado ideal para o quarto dos seus filhos?</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ud ulålamc sitr [...]</p>
-                    <time datetime="2017-02-04">04.02.2017</time>
-                    <img src="img/icoComments.png" alt="Comentários" height="17" width="17">
-                    <small>[5]</small>
+                   <h1>Tags</h1>
+                   <a href="#">Aplicações</a>
+                   <a href="#">Automatização</a>
+                   <a href="#">Câmara Carga</a>
+                   <a href="#">Compressor</a>
+                   <a href="#">Compressores</a>
+                   <a href="#">Congelamento</a>
+                   <a href="#">Cálculo</a>
+                   <a href="#">Degelo</a>
+                   <a href="#">Destaque</a>
+                   <a href="#">Ebm</a>
+                   <a href="#">Economia</a>
+                   <a href="#">Eficiência</a>
+                   <a href="#">Evaporador</a>
+                   <a href="#">Evaporadores</a>
+                   <a href="#">Ferramentas</a>
+                   <a href="#">Filtro</a>
+                   <a href="#">Fluido</a>
+                   <a href="#">Heatcraft</a>
+                   <a href="#">Evaporador</a>
+                   <a href="#">Evaporadores</a>
+                   <a href="#">Ferramentas</a>
                 </article>
                 <article>
-                    <figure>
-                        <figcaption>PEÇAS</figcaption>
-                    </figure>
-                    <h1>Qual o ar condiconado ideal para o quarto dos seus filhos?</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ud ulålamc sitr [...]</p>
-                    <time datetime="2017-02-04">04.02.2017</time>
-                    <img src="img/icoComments.png" alt="Comentários" height="17" width="17">
-                    <small>[5]</small>
+                    <!-- PLACEHOLDER OF THE LIKEBOX -->
                 </article>
-                <article>
-                    <figure>
-                        <figcaption>NOVIDADES</figcaption>
-                    </figure>
-                    <h1>Qual a diferença entre ar condicionado e climatizador?</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ud ulålamc sitr [...]</p>
-                    <time datetime="2017-02-04">04.02.2017</time>
-                    <img src="img/icoComments.png" alt="Comentários" height="17" width="17">
-                    <small>[5]</small>
-                </article>
-                <article>
-                    <figure>
-                        <figcaption>PEÇAS</figcaption>
-                    </figure>
-                    <h1>Top 5 Melhores Lava e Seca em 2017.</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ud ulålamc sitr [...]</p>
-                    <time datetime="2017-02-04">04.02.2017</time>
-                    <img src="img/icoComments.png" alt="Comentários" height="17" width="17">
-                    <small>[5]</small>
-                </article>
-                <article>
-                    <figure>
-                        <figcaption>NOVIDADES</figcaption>
-                    </figure>
-                    <h1>O Motor da sua geladeira quebrou? Ache a peça certa.</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ud ulålamc sitr [...]</p>
-                    <time datetime="2017-02-04">04.02.2017</time>
-                    <img src="img/icoComments.png" alt="Comentários" height="17" width="17">
-                    <small>[5]</small>
-                </article>
-                <article>
-                    <figure>
-                        <figcaption>PEÇAS</figcaption>
-                    </figure>
-                    <h1>Qual a temperatura correta do ar condicionado?</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ud ulålamc sitr [...]</p>
-                    <time datetime="2017-02-04">04.02.2017</time>
-                    <img src="img/icoComments.png" alt="Comentários" height="17" width="17">
-                    <small>[5]</small>
-                </article>
-                <a href="#" id="btnLoad">CARREGAR MAIS POSTS</a>
-            </section>
+                <a href="#" id="calendar">
+                    <article>                    
+                        <img src="img/calendar.png" alt="" height="72" width="72">
+                        <h3>FEIRAS E EVENTOS</h3>
+                        <h4>Clique e confira nossa agenda de eventos</h4>
+                    </article>
+                </a>                
+            </section>  
         </main>
-        
+        <footer>
+            <section>
+                <img src="img/icoMail.png" alt="" height="56" width="72">
+                <h4>FIQUE POR DENTRO DE NOSSAS NOVIDADES</h4>
+                <h5>CADASTRE-SE E MATENHA-SE INFORMADO</h5>
+                <form action="#">
+                    <input type="text" name="name" placeholder="DIGITE O SEU NOME:">
+                    <input type="email" name="email" placeholder="DIGITE O SEU EMAIL:">
+                </form>
+                <a href="#" class="btnRegister">QUERO ME CADASTRAR</a>
+            </section>
+            <section>
+                <article>
+                    <img src="img/logoBlue.jpg" alt="Blog Polipartes" height="55" width="231">
+                    <p>Há vinte e cinco anos a Polipartes vende Peças para Ar Condicionado Janela e Split, Peças para Lavadora, Secadora, Lavalouças, Geladeira, Freezer e Peças para Refrigeração Comercial. Somos Revendedores Autorizados das marcas Brastemp, Consul, Electrolux, Elgin, Gree, LG, Springer, Carrier e Midea. Conte com a gente!</p>
+                </article>
+                <article>
+                    <h3>ATENDIMENTO</h3>
+                    <article>
+                        <img src="img/icoSuitcase.png" alt="" height="40" width="40">
+                        <h4>VENDAS CORPORATIVAS</h4>
+                        <img src="img/icoPhone.png" alt="Telefone">
+                        <p><a href="tel:2125065657">(21) 2506 - 5657</a></p>
+                        <img src="img/icoLetter.png" alt="Email">
+                        <p><a href="mailto:vendas@polipartes.com.br">vendas@polipartes.com.br</a></p>
+                    </article>
+                    <article>
+                        <img src="img/icoStore.png" alt="" height="40" width="40">
+                        <h4>LOJA FÍSICA</h4>
+                        <img src="img/icoPhone.png" alt="Telefone" height="24" width="24">
+                        <p><a href="tel:2125065672">(21) 2506-5672</a></p>
+                        <p><a href="2125065655">(21) 2506-5655</a></p>
+                        <img src="img/icoLetter.png" alt="Email" height="24" width="24">
+                        <p><a href="mailto:sac@polipartes.com.br">sac@polipartes.com.br</a></p>
+                    </article>
+                    <article>
+                        <img src="img/icoCar.png" alt="" height="40" width="40">
+                        <h4>SITE</h4>
+                        <img src="img/icoPhone.png" alt="Telefone" height="24" width="24">
+                        <p><a href="tel:2125065650">(21) 2506 - 5650</a></p>
+                    </article>
+                </article>
+            </section>
+        </footer>        
     </body>
 </html>
