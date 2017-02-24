@@ -1,52 +1,60 @@
-/* 
-GENERAL 
+/*
+HEADER
 */
-
-body {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    color: #4d4d4d;
-    background-color: #dddddd;
-}
-
-.btnVirtualStore {
+header {
     display: flex;
-    align-items: center;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
-    text-align: center;
+    align-items: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #dcdcdc;    
+}
+/*
+VIRTUAL STORE BUTTON
+*/
+#btnVirtualStore {
+    display: flex;
     background-color: #f55c1f;
-    text-decoration: none;
-    border-radius: 30px;
-    padding: 0 20px;
-}
-
-header,nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap-reverse;    
-    justify-content: space-around;    
-}
-
-.highlights {
-    display: flex;    
-}
-
-.lastPosts h1, .btnLoad {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.lastPosts article {
-    display: inline-flex;
-    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    text-align: left;
-    max-width: 612px;
-    flex-grow: 1;
+    min-width: 292px;
+    min-height: 46px;
+    border-radius: 25px;
+    text-decoration: none;    
 }
-
-
+#btnVirtualStore img {
+    padding-left: 20px;
+}
+header a h3 {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-right: 40px;
+}
+/*
+SEARCH BOX
+*/
+#formSearch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c9c9c9;
+    min-width: 270px;
+    width: 29vw;
+}
+#txtSearch {
+    border: none;
+    min-width: 240px;
+    outline: none;
+    padding-left: 13px;
+    font-family: "Open Sans Light", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #a7a7a7;
+    min-width: 250px;    
+}
