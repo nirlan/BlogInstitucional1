@@ -58,9 +58,9 @@ SEARCH BOX
     width: 90vw;
     outline: none;
     padding-left: 13px;
-    font-family: "Open Sans Light", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 300;
     color: #a7a7a7;
 }
 
@@ -116,8 +116,9 @@ HIGHLIGHTS
 #highlightPost figcaption h1 {
     order: 1;
     width: 100%;
-    font-family: "Open Sans Light", Helvetica, Arial, sans-serif;
-    font-size: 1.35rem;    
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 1.35rem;
+    font-weight: 300;
     margin-top: 0;
     color: #ffffff;
 }
@@ -126,6 +127,7 @@ HIGHLIGHTS
     color: #ffffff;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 0.72rem;
+    font-weight: 400;
     text-transform: uppercase;
     margin-left: 10px;
     padding: 7px 10px;
@@ -137,7 +139,8 @@ HIGHLIGHTS
     order: -1;
     color: #ffffff;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 0.72rem;   
+    font-size: 0.72rem;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -175,9 +178,9 @@ HIGHLIGHTS ASIDE
 .asidePost h1 {
     order: 1;
     width: 100%;
-    font-family: "Open Sans Light", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 300;
     color: #ffffff;
 }
 .asidePost h2 {
@@ -185,6 +188,7 @@ HIGHLIGHTS ASIDE
     color: #ffffff;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 0.72rem;
+    font-weight: 400;
     text-transform: uppercase;
     margin-left: 15px;
     padding: 7px 10px;
@@ -196,6 +200,114 @@ HIGHLIGHTS ASIDE
     order: -1;
     color: #ffffff;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 0.72rem;   
+    font-size: 0.72rem;
+    font-weight: 400;
     text-transform: uppercase;
+}
+
+/*
+LAST POSTS
+*/
+
+#lastPost {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#lastPost h1 {
+    width: 100%;
+    text-align: left;
+    padding-left: 30px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 1.9rem;
+    font-weight: 400;
+    color: #666666;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    margin-left: 8px;
+}
+#lastPost article {
+    display: flex;
+    flex-wrap: wrap;
+}
+#btnLoad {    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 260px;
+    min-height: 50px;
+    background-color: #f55c1f;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 0.95rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;  
+    border-radius: 4px;
+    margin-top: 50px;
+}
+.post {
+    display: flex;
+    flex-wrap: wrap;    
+}
+.lastPostFigure {
+    position: relative;
+    width: 295px;
+    height: 190px;
+}
+.lastPostFigure figcaption {
+    position: absolute;
+    right: 0px;
+    top: 80%;
+    padding: 7px 15px;
+    color: #ffffff;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 0.72rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: #265291;        
+}
+.post aside {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    width: 300px;
+    height: 190px;    
+}
+.post h2 {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #545353;
+}
+.post p {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #8e8d8d;
+    text-align: justify;
+}
+.post time {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 300;
+    color: #9d9c9c;
+    align-self: center;
+}
+.post a {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;    
+    text-decoration: none;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 300;
+    color: #9d9c9c; 
+}
+.post a img {
+    padding-bottom: 5px;
+}
+.post a span {
+    margin-left: 5px;
+    margin-right: 7px;
 }
