@@ -204,13 +204,15 @@
         <footer>
             <section id="register">
                 <img src="img/icoMail.png" alt="" height="56" width="72">
-                <h4>Fique por dentro de nossas novidades</h4>
-                <h5>Cadastre-se e mantenha-se informado</h5>
+                <div>
+                    <h4>Fique por dentro de nossas novidades</h4>
+                    <h5>Cadastre-se e mantenha-se informado</h5>
+                </div>
                 <form action="#">
                     <input type="text" name="name" placeholder="DIGITE O SEU NOME:">
                     <input type="email" name="email" placeholder="DIGITE O SEU EMAIL:">
                 </form>
-                <a href="#" id="btnRegister">Quero me cadastra</a>
+                <a href="#" id="btnRegister">Quero me cadastrar</a>
             </section>
             <section id="about">
                 <article id="moreAbout">
@@ -220,27 +222,43 @@
                 <article id="contact">
                     <h3>Atendimento</h3>
                     <article class="contactArticle">
-                        <img src="img/icoSuitcase.png" alt="" height="40" width="40">
-                        <h4>Vendas corporativas</h4>
-                        <img src="img/icoPhone.png" alt="Telefone">
-                        <p><a href="tel:2125065657">(21) 2506 - 5657</a></p>
-                        <img src="img/icoLetter.png" alt="Email">
-                        <p><a href="mailto:vendas@polipartes.com.br">vendas@polipartes.com.br</a></p>
+                        <div class="contactHeader">
+                            <img src="img/icoSuitcase.png" alt="" height="40" width="40">
+                            <h4>Vendas corporativas</h4>
+                        </div>
+                        <div class="contactList">
+                            <img src="img/icoPhone.png" alt="Telefone" height="24" width="24">                        
+                            <p><a href="tel:2125065657">(21) 2506 - 5657</a></p>
+                        </div>
+                        <div class="contactList">
+                            <img src="img/icoLetter.png" alt="Email" height="24" width="24">
+                            <p><a href="mailto:vendas@polipartes.com.br">vendas@polipartes.com.br</a></p>
+                        </div>
                     </article>
                     <article class="contactArticle">
-                        <img src="img/icoStore.png" alt="" height="40" width="40">
-                        <h4>Loja física</h4>
-                        <img src="img/icoPhone.png" alt="Telefone" height="24" width="24">
-                        <p><a href="tel:2125065672">(21) 2506-5672</a></p>
-                        <p><a href="2125065655">(21) 2506-5655</a></p>
-                        <img src="img/icoLetter.png" alt="Email" height="24" width="24">
-                        <p><a href="mailto:sac@polipartes.com.br">sac@polipartes.com.br</a></p>
+                        <div class="contactHeader">
+                            <img src="img/icoStore.png" alt="" height="40" width="40">
+                            <h4>Loja física</h4>
+                        </div>
+                        <div class="contactList" id="twoPhones">
+                            <img src="img/icoPhone.png" alt="Telefone" height="24" width="24">
+                            <p><a href="tel:2125065672">(21) 2506-5672</a></p>
+                            <p><a href="2125065655">(21) 2506-5655</a></p>
+                        </div>
+                        <div class="contactList">
+                            <img src="img/icoLetter.png" alt="Email" height="24" width="24">
+                            <p><a href="mailto:sac@polipartes.com.br">sac@polipartes.com.br</a></p>
+                        </div>
                     </article>
                     <article class="contactArticle">
-                        <img src="img/icoCar.png" alt="" height="40" width="40">
-                        <h4>Site</h4>
-                        <img src="img/icoPhone.png" alt="Telefone" height="24" width="24">
-                        <p><a href="tel:2125065650">(21) 2506 - 5650</a></p>
+                        <div class="contactHeader">
+                            <img src="img/icoCar.png" alt="" height="40" width="40">
+                            <h4>Site</h4>
+                        </div>
+                        <div class="contactList">
+                            <img src="img/icoPhone.png" alt="Telefone" height="24" width="24">
+                            <p><a href="tel:2125065650">(21) 2506 - 5650</a></p>
+                        </div>
                     </article>
                 </article>
             </section>

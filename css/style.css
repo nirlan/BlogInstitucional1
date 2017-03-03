@@ -391,3 +391,168 @@ MORE INFO SECTION
     font-weight: 400;
     margin-top: 0px;
 }
+
+/*
+FOOTER - REGISTER
+*/
+
+#register {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #4fa8ea;
+    margin-top: 50px;
+    padding: 15px 15px 15px 45px;
+}
+#register img {
+    margin-left: 3px;
+    margin-top: 10px;
+}
+#register div {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;    
+}
+#register h4 {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 0.98rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    margin: 0 0 2px 0;
+}
+#register h5 {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 0.95rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;
+    margin: 0px;
+}
+#register form input {
+    border-width: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #4fa8ea;
+    background-color: #ffffff;  
+    width: 270px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 13px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #9b9b9b;
+}
+input[type=email] {
+    margin-left: 10px;
+}
+input[name=name] {
+    margin-left: 30px;
+}
+#btnRegister {
+    display: flex;
+    background-color: #f55c1f;    
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    min-height: 42px;
+    border-radius: 4px;
+    text-decoration: none;    
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+/*
+ABOUT
+*/
+
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #005392;
+    padding-top: 50px;
+    padding-left: 45px;
+    padding-bottom: 50px;
+}
+#moreAbout {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 0.82rem;
+    font-weight: 300;
+    color: #8e8d8d;
+    text-align: justify;
+    color: #ffffff;    
+}
+#moreAbout p{
+    margin-top: 15px;
+    line-height: 18px;
+}
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    justify-content: space-around;
+}
+#contact h3 {
+    width: 100%;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+.contactArticle {
+    display: flex;
+    flex-direction: column;
+}
+.contactArticle h4 {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0px;
+    padding-top: 8px;
+    padding-left: 5px;
+}
+.contactArticle p {
+    padding: 0px;
+    margin: 0 0 0 15px;
+}
+.contactArticle p a{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 0.95rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;    
+}
+.contactHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.contactList {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#twoPhones {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    max-width: 150px;
+    margin-left: 4px;
+}
